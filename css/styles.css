@@ -1,0 +1,32 @@
+:root {
+  --background-color: #b2ebf2;
+  /* --background-color2: blue; */
+  --header-color: #00bcd4;
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+h1 {
+  color: var(--header-color);
+}
+
+h2 {
+  color: var(--header-color);
+}
+
+h3 {
+  color: var(--header-color);
+}
+
+hr {
+  border-style: none;
+  border-top: dotted;
+  border-color: grey;
+  border-width: 5px;
+  height: 0px;
+  width: 10%;
+}
+
+img {}
